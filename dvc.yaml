@@ -4,13 +4,19 @@ stages:
     cmd: python stage_01.py
     deps:
     - stage_01.py
+    outs:
+    - output.txt
 
   stage_two:
     cmd: python stage_02.py
     deps:
     - stage_02.py
+    - output.txt
+    outs:
+    - output2.txt
 
   stage_three:
     cmd: python stage_03.py
     deps:
     - stage_03.py
+    - output2.txt
