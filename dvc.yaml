@@ -19,4 +19,9 @@ stages:
     cmd: python stage_03.py
     deps:
     - stage_03.py
+    - output.txt
+
+  stage_four: 
+    cmd: cat output2.txt
+    deps:
     - output2.txt

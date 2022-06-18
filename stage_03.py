@@ -1,6 +1,6 @@
 STAGE = "THREE"
 
-with open("output2.txt", "r") as f:
+with open("output.txt", "r") as f:
     content = f.read()
 
 print(f'out: {content}')
