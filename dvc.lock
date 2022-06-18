@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  stage_one:
+    cmd: python stage_01.py
+    deps:
+    - path: stage_01.py
+      md5: bd38708cdb5c7be4f70f6af0177cb1a9
+      size: 61
+  stage_three:
+    cmd: python stage_03.py
+    deps:
+    - path: stage_03.py
+      md5: fb600d8df1a7be9ca9f04ebd660c01e1
+      size: 63
+  stage_two:
+    cmd: python stage_02.py
+    deps:
+    - path: stage_02.py
+      md5: d50a65e38beb667db79371bdf0053470
+      size: 64
