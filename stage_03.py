@@ -5,4 +5,4 @@ with open("output.txt", "r") as f:
 
 print(f'out: {content}')
 
-print(f"stage {STAGE} started successfully..!!")
+print(f"stage {STAGE} started successfully!!")
