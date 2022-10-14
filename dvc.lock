@@ -17,8 +17,8 @@ stages:
       md5: f0abb9e03c10bc373b4b9d338d1870c5
       size: 32
     - path: stage_03.py
-      md5: 6a8db0dee7c7d5470d7a93413780f679
-      size: 155
+      md5: 061b65b0aac402fb1f9425009da16639
+      size: 157
   stage_two:
     cmd: python stage_02.py
     deps:
